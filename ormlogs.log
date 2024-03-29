@@ -1,0 +1,312 @@
+[2024-03-28T11:24:21.810Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:24:21.822Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:24:21.832Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:24:21.832Z][QUERY]: SELECT version();
+[2024-03-28T11:28:59.517Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:28:59.522Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:28:59.525Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:28:59.525Z][QUERY]: SELECT version();
+[2024-03-28T11:30:29.197Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:30:29.224Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:30:29.230Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:30:29.231Z][QUERY]: SELECT version();
+[2024-03-28T11:31:19.274Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:31:19.279Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:31:19.289Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:31:19.290Z][QUERY]: SELECT version();
+[2024-03-28T11:32:41.648Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:32:41.652Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:32:41.655Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:32:41.656Z][QUERY]: SELECT version();
+[2024-03-28T11:33:17.421Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:33:17.464Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:33:17.472Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:33:17.472Z][QUERY]: SELECT version();
+[2024-03-28T11:38:39.908Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T11:38:39.939Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T11:38:39.952Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T11:38:39.952Z][QUERY]: SELECT version();
+[2024-03-28T12:00:10.200Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:00:10.205Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:00:10.207Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:00:10.208Z][QUERY]: SELECT version();
+[2024-03-28T12:03:12.880Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:03:12.892Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:03:12.895Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:03:12.895Z][QUERY]: SELECT version();
+[2024-03-28T12:04:33.740Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:04:33.746Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:04:33.750Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:04:33.752Z][QUERY]: SELECT version();
+[2024-03-28T12:05:04.897Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:05:04.901Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:05:04.904Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:05:04.904Z][QUERY]: SELECT version();
+[2024-03-28T12:37:47.420Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:37:47.425Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:37:47.435Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:37:47.436Z][QUERY]: SELECT version();
+[2024-03-28T12:37:58.103Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:37:58.112Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:37:58.114Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:37:58.114Z][QUERY]: SELECT version();
+[2024-03-28T12:38:52.497Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:38:52.502Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:38:52.515Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:38:52.515Z][QUERY]: SELECT version();
+[2024-03-28T12:39:21.115Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:39:21.121Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:39:21.127Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:39:21.128Z][QUERY]: SELECT version();
+[2024-03-28T12:39:42.051Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:39:42.058Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:39:42.071Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:39:42.071Z][QUERY]: SELECT version();
+[2024-03-28T12:39:51.208Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:39:51.212Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:39:51.223Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:39:51.223Z][QUERY]: SELECT version();
+[2024-03-28T12:40:07.637Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T12:40:07.644Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T12:40:07.647Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T12:40:07.648Z][QUERY]: SELECT version();
+[2024-03-28T13:14:11.837Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T13:14:11.845Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T13:14:11.853Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T13:14:11.855Z][QUERY]: SELECT version();
+[2024-03-28T13:15:03.354Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T13:15:03.362Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T13:15:03.364Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T13:15:03.364Z][QUERY]: SELECT version();
+[2024-03-28T13:32:11.300Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T13:32:11.305Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T13:32:11.308Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T13:32:11.309Z][QUERY]: SELECT version();
+[2024-03-28T16:05:34.058Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:05:34.074Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:05:34.077Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:05:34.078Z][QUERY]: SELECT version();
+[2024-03-28T16:06:18.637Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:06:18.642Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:06:18.650Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:06:18.651Z][QUERY]: SELECT version();
+[2024-03-28T16:06:43.735Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:06:43.759Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:06:43.767Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:06:43.769Z][QUERY]: SELECT version();
+[2024-03-28T16:10:27.929Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:10:27.934Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:10:27.938Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:10:27.938Z][QUERY]: SELECT version();
+[2024-03-28T16:11:45.211Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:11:45.217Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:11:45.224Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:11:45.225Z][QUERY]: SELECT version();
+[2024-03-28T16:13:27.908Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:13:27.922Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:13:27.935Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:13:27.936Z][QUERY]: SELECT version();
+[2024-03-28T16:14:06.990Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:14:07.004Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:14:07.012Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:14:07.012Z][QUERY]: SELECT version();
+[2024-03-28T16:16:00.760Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:16:00.765Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:16:00.773Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:16:00.774Z][QUERY]: SELECT version();
+[2024-03-28T16:16:36.767Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:16:36.771Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:16:36.774Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:16:36.774Z][QUERY]: SELECT version();
+[2024-03-28T16:29:53.587Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:29:53.594Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:29:53.604Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:29:53.605Z][QUERY]: SELECT version();
+[2024-03-28T16:31:04.062Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:31:04.067Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:31:04.072Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:31:04.073Z][QUERY]: SELECT version();
+[2024-03-28T16:35:28.549Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:35:28.555Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:35:28.563Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:35:28.564Z][QUERY]: SELECT version();
+[2024-03-28T16:36:25.580Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:36:25.585Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:36:25.589Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:36:25.589Z][QUERY]: SELECT version();
+[2024-03-28T16:44:28.666Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T16:44:28.672Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T16:44:28.681Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T16:44:28.682Z][QUERY]: SELECT version();
+[2024-03-28T17:01:36.594Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:01:36.600Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:01:36.604Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:01:36.604Z][QUERY]: SELECT version();
+[2024-03-28T17:02:58.632Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:02:58.643Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:02:58.656Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:02:58.658Z][QUERY]: SELECT version();
+[2024-03-28T17:03:14.796Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:03:14.804Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:03:14.819Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:03:14.820Z][QUERY]: SELECT version();
+[2024-03-28T17:11:45.438Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:11:45.449Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:11:45.461Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:11:45.462Z][QUERY]: SELECT version();
+[2024-03-28T17:20:29.257Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:20:29.264Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:20:29.267Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:20:29.268Z][QUERY]: SELECT version();
+[2024-03-28T17:21:15.382Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:21:15.390Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:21:15.400Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:21:15.402Z][QUERY]: SELECT version();
+[2024-03-28T17:30:09.460Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:30:09.465Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:30:09.475Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:30:09.476Z][QUERY]: SELECT version();
+[2024-03-28T17:34:07.461Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:34:07.467Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:34:07.472Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:34:07.473Z][QUERY]: SELECT version();
+[2024-03-28T17:36:09.228Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:36:09.249Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:36:09.261Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:36:09.263Z][QUERY]: SELECT version();
+[2024-03-28T17:37:30.979Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T17:37:30.983Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T17:37:30.986Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T17:37:30.986Z][QUERY]: SELECT version();
+[2024-03-28T19:49:19.281Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T19:49:19.291Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T19:49:19.295Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T19:49:19.296Z][QUERY]: SELECT version();
+[2024-03-28T19:50:11.189Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T19:50:11.194Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T19:50:11.200Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T19:50:11.200Z][QUERY]: SELECT version();
+[2024-03-28T19:53:40.790Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-28T19:53:40.796Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-28T19:53:40.810Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-28T19:53:40.811Z][QUERY]: SELECT version();
+[2024-03-29T08:23:32.028Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T08:23:32.046Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T08:23:32.052Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T08:23:32.052Z][QUERY]: SELECT version();
+[2024-03-29T11:04:04.947Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:04:04.968Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:04:04.980Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:04:04.981Z][QUERY]: SELECT version();
+[2024-03-29T11:08:27.556Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:08:27.561Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:08:27.566Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:08:27.567Z][QUERY]: SELECT version();
+[2024-03-29T11:09:19.645Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:09:19.650Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:09:19.654Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:09:19.655Z][QUERY]: SELECT version();
+[2024-03-29T11:11:07.566Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:11:07.572Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:11:07.580Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:11:07.581Z][QUERY]: SELECT version();
+[2024-03-29T11:19:29.897Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:19:29.903Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:19:29.911Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:19:29.912Z][QUERY]: SELECT version();
+[2024-03-29T11:23:28.599Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:23:28.604Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:23:28.608Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:23:28.609Z][QUERY]: SELECT version();
+[2024-03-29T11:24:50.526Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:24:50.530Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:24:50.533Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:24:50.533Z][QUERY]: SELECT version();
+[2024-03-29T11:26:35.865Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:26:35.871Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:26:35.875Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:26:35.875Z][QUERY]: SELECT version();
+[2024-03-29T11:32:32.124Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:32:32.130Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:32:32.138Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:32:32.139Z][QUERY]: SELECT version();
+[2024-03-29T11:35:28.748Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:35:28.754Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:35:28.758Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:35:28.759Z][QUERY]: SELECT version();
+[2024-03-29T11:37:46.600Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:37:46.607Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:37:46.616Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:37:46.617Z][QUERY]: SELECT version();
+[2024-03-29T11:43:41.494Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:43:41.499Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:43:41.508Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:43:41.509Z][QUERY]: SELECT version();
+[2024-03-29T11:47:05.230Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:47:05.237Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:47:05.247Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:47:05.248Z][QUERY]: SELECT version();
+[2024-03-29T11:51:37.795Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:51:37.801Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:51:37.806Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:51:37.806Z][QUERY]: SELECT version();
+[2024-03-29T11:54:24.700Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T11:54:24.705Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T11:54:24.708Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T11:54:24.709Z][QUERY]: SELECT version();
+[2024-03-29T12:23:54.000Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:23:54.004Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:23:54.007Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:23:54.007Z][QUERY]: SELECT version();
+[2024-03-29T12:25:00.706Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:25:00.711Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:25:00.716Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:25:00.716Z][QUERY]: SELECT version();
+[2024-03-29T12:25:17.040Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:25:17.045Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:25:17.052Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:25:17.052Z][QUERY]: SELECT version();
+[2024-03-29T12:27:54.265Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:27:54.273Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:27:54.280Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:27:54.282Z][QUERY]: SELECT version();
+[2024-03-29T12:34:19.426Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:34:19.431Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:34:19.435Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:34:19.436Z][QUERY]: SELECT version();
+[2024-03-29T12:37:01.226Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:37:01.237Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:37:01.240Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:37:01.241Z][QUERY]: SELECT version();
+[2024-03-29T12:41:35.550Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:41:35.554Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:41:35.557Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:41:35.558Z][QUERY]: SELECT version();
+[2024-03-29T12:41:44.646Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:41:44.651Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:41:44.656Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:41:44.656Z][QUERY]: SELECT version();
+[2024-03-29T12:41:52.596Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:41:52.601Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:41:52.605Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:41:52.605Z][QUERY]: SELECT version();
+[2024-03-29T12:42:04.331Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:42:04.340Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:42:04.343Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:42:04.344Z][QUERY]: SELECT version();
+[2024-03-29T12:54:32.403Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T12:54:32.409Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T12:54:32.424Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T12:54:32.424Z][QUERY]: SELECT version();
+[2024-03-29T13:01:08.875Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T13:01:08.886Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T13:01:08.899Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T13:01:08.900Z][QUERY]: SELECT version();
+[2024-03-29T13:02:29.582Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T13:02:29.586Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T13:02:29.595Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T13:02:29.595Z][QUERY]: SELECT version();
+[2024-03-29T13:03:06.306Z][QUERY]: SELECT * FROM current_schema()
+[2024-03-29T13:03:06.311Z][INFO]: All classes found using provided glob pattern "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/*.{js,ts}" : "/home/kingsloob1/projects/mine/bun-nest-template/src/database/models/BaseModel.ts"
+[2024-03-29T13:03:06.319Z][INFO]: No classes were found using the provided glob pattern:  "/home/kingsloob1/projects/mine/bun-nest-template/src/database/migrations/*.{js,ts}"
+[2024-03-29T13:03:06.319Z][QUERY]: SELECT version();
