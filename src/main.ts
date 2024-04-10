@@ -7,8 +7,13 @@ import { getConnectedDataSource } from './database/connections/default';
 import { useContainer } from 'class-validator';
 import { BunHttpAdapter } from '@kingsleyweb/bun-nest';
 import appConfig from './config/envs/app.config';
-import type { BunRequest, BunResponse, NextFunction } from '@kingsleyweb/bun-common';
+import type {
+  BunRequest,
+  BunResponse,
+  NextFunction,
+} from '@kingsleyweb/bun-common';
 import type { HttpServer } from '@nestjs/common';
+import type { SecuritySchemeObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
 // import { GoogleSheetsService } from './sheet/services/google-sheet.service';
 // import { SubscriberModel } from './database/models/SubscriberModel';
 // import { SyncQueueService } from './queue/services/SyncQueue.service';
@@ -21,19 +26,23 @@ async function bootstrap() {
     console.log('Connected to database ...');
 
     //Get app instance
-    const app = await NestFactory.create(AppModule, new BunHttpAdapter(60 * 1000), {
-      rawBody: true,
-      logger: ['log', 'error', 'warn', 'debug', 'verbose'],
-      bufferLogs: true,
-      abortOnError: true,
-      forceCloseConnections: true,
-    });
+    const app = await NestFactory.create(
+      AppModule,
+      new BunHttpAdapter(60 * 1000),
+      {
+        rawBody: true,
+        logger: ['log', 'error', 'warn', 'debug', 'verbose'],
+        bufferLogs: true,
+        abortOnError: true,
+        forceCloseConnections: true,
+      },
+    );
 
-    //Register loggers
-    // const logger = app.get(Logger);
-    // app.useGlobalInterceptors(new LoggerErrorInterceptor());
-    // app.useLogger(logger);
-    // app.flushLogs();
+    // Register loggers
+    const logger = app.get(Logger);
+    app.useGlobalInterceptors(new LoggerErrorInterceptor());
+    app.useLogger(logger);
+    app.flushLogs();
 
     //Get app config
     const appConfigEnv = appConfig();
@@ -50,14 +59,24 @@ async function bootstrap() {
 
     //TODO: Incrase paylaod size here default payload sizse is 5mb
     const config = new DocumentBuilder()
-      .setTitle('Slide Marketing')
-      .setDescription('Slide Marketing')
+      .setTitle('Project Title')
+      .setDescription('Project Description')
       .setVersion('1.0')
-      .setBasePath('/marketing')
+      .addBearerAuth(
+        {
+          type: 'http',
+          in: 'header',
+          schema: 'Bearer',
+          bearerFormat: 'JWT',
+        } as SecuritySchemeObject,
+        'Bearer',
+      )
+      .setExternalDoc('Postman Collection', '/docs-json')
+      .setBasePath('/api')
       .build();
 
     const document = SwaggerModule.createDocument(app, config);
-    SwaggerModule.setup('api-docs', app, document, {
+    SwaggerModule.setup('api/docs', app, document, {
       swaggerOptions: {
         docExpansion: 'none', // Set the initial expand level of the documentation (none, list, full)
         filter: true, // Enable filtering of API endpoints
@@ -65,11 +84,17 @@ async function bootstrap() {
         operationsSorter: 'alpha', // Sort the API endpoints alphabetically
         tagsSorter: 'alpha', // Sort the tags alphabetically
         validatorUrl: null, // Disable the default schema validator URL
-        plugins: [import.meta.resolveSync('config/swagger/plugins/swagger-download.plugin.js')],
+        plugins: [
+          import.meta.resolveSync(
+            'config/swagger/plugins/swagger-download.plugin.js',
+          ),
+        ],
       },
     });
 
-    (app.getHttpAdapter() as HttpServer<BunRequest, BunResponse, NextFunction>).get('/', (req, res) => {
+    (
+      app.getHttpAdapter() as HttpServer<BunRequest, BunResponse, NextFunction>
+    ).get('/', (req, res) => {
       return res.json({
         status: 'ok',
         timestamp: new Date().toISOString(),
@@ -86,10 +111,11 @@ async function bootstrap() {
     }
 
     await app.listen(appConfigEnv.PORT, '0.0.0.0');
-    const httpAdapter = await (app.getHttpAdapter() as unknown as BunHttpAdapter);
-    const serverAddress = await httpAdapter.getListenAddress()
+    const httpAdapter =
+      await (app.getHttpAdapter() as unknown as BunHttpAdapter);
+    const serverAddress = await httpAdapter.getListenAddress();
     const serverUrl = await app.getUrl();
-    
+
     if (httpAdapter && serverAddress && serverUrl) {
       console.log('App listened succesfully');
       console.log('Server opened connection on ====> ', serverUrl);

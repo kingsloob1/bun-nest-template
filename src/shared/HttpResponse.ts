@@ -1,6 +1,6 @@
 import { HttpStatus, Injectable, Scope } from '@nestjs/common';
 import { AppLogger } from './AppLogger';
-import { TranslatorService } from 'nestjs-translator';
+import { TranslateService } from 'nestjs-translate';
 import { ModuleRef } from '@nestjs/core';
 import { ResponseStatusCodeConst } from '../constant/ResponseStatusCodeConst';
 import { BaseAppException } from 'src/http/exceptions/BaseAppException';
@@ -11,10 +11,10 @@ import { get, set, isObject } from 'lodash-es';
 @Injectable({ scope: Scope.TRANSIENT })
 export class HttpResponse {
   private readonly appLogger: AppLogger;
-  private readonly translator: TranslatorService;
+  private readonly translator: TranslateService;
   constructor(private readonly moduleRef: ModuleRef) {
     this.appLogger = this.moduleRef.get(AppLogger, { strict: false });
-    this.translator = this.moduleRef.get(TranslatorService, { strict: false });
+    this.translator = this.moduleRef.get(TranslateService, { strict: false });
   }
 
   //Vars
@@ -67,7 +67,7 @@ export class HttpResponse {
     const bodyToBeSent = {
       statusCode: this.statusCode,
       message: this.message,
-      ...(isObject(body) ? {...body} : {} ),
+      ...(isObject(body) ? { ...body } : {}),
     };
     set(res, 'saved-body', bodyToBeSent);
     return res.status(this.serverCode).json(bodyToBeSent);
@@ -83,7 +83,7 @@ export class HttpResponse {
     response[this.dataKey] = this.data;
     if (this.message && this.translateMessage) {
       const lang = HttpResponse.getLanguageFromReq(req);
-      this.message = this.translator.translate(this.message, { lang: lang });
+      this.message = this.translator.instant(lang, this.message);
     }
 
     response['message'] = this.message;
@@ -108,9 +108,7 @@ export class HttpResponse {
 
     if (exception.translateMessage) {
       const lang = HttpResponse.getLanguageFromReq(req);
-      response['message'] = this.translator.translate(exception.message, {
-        lang: lang,
-      });
+      response['message'] = this.translator.instant(lang, exception.message);
     } else {
       response['message'] = exception.message;
     }
@@ -135,9 +133,10 @@ export class HttpResponse {
     const response: Record<string, unknown> = { data: null };
     const lang = HttpResponse.getLanguageFromReq(req);
 
-    response['message'] = this.translator.translate('messages_server_error', {
-      lang: lang,
-    });
+    response['message'] = this.translator.instant(
+      lang,
+      'messages_server_error',
+    );
 
     if (appconfiguration.NODE_ENV !== 'production') {
       response['devMessage'] = exception.stack ?? null;
@@ -166,7 +165,9 @@ export class HttpResponse {
   }
 
   private static getLanguageFromReq(req: BunRequest) {
-    const lang = String(req.headersObj.get('accept-language') || '').toLowerCase()
+    const lang = String(
+      req.headersObj.get('accept-language') || '',
+    ).toLowerCase();
     if (lang !== 'en' && lang !== 'ar') {
       return 'en';
     }

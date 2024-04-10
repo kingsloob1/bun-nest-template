@@ -2,28 +2,28 @@ import {
   type MiddlewareConsumer,
   Module,
   type NestModule,
-  RequestMethod,
 } from '@nestjs/common';
 import type { RedisClientOptions } from 'redis';
-import redisStore from 'cache-manager-redis-store';
+import { redisStore } from 'cache-manager-redis-store';
 import { ConfigModule, ConfigService, type ConfigType } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LoggerModule } from 'nestjs-pino';
-import { TranslatorModule } from 'nestjs-translator';
+import { TranslateModule } from 'nestjs-translate';
 import { APP_FILTER, APP_GUARD, APP_PIPE } from '@nestjs/core';
 import { HttpExceptionFilter } from './http/exceptions/exception-filter/HttpExceptionFilter';
-import { CacheModule } from '@nestjs/cache-manager';
+import { CacheModule, type CacheStore } from '@nestjs/cache-manager';
 import { getConnectedDataSource as getDefaultConnectionDataSource } from './database/connections/default';
-import { ThrottlerModule } from '@nestjs/throttler';
+import {
+  ThrottlerModule,
+  type ThrottlerModuleOptions,
+} from '@nestjs/throttler';
 import { ThrottlerBehindProxyGuard } from './config/throttle';
 import validatorPipe from './config/validator';
 import appConfig from './config/envs/app.config';
 import databaseConfig from './config/envs/database.config';
 import redisConfig from './config/envs/redis.config';
-import { JwtAuthGuard } from './shared/guards/jwtAuth.guard';
-import { AppLogger } from './shared/AppLogger';
 import { SharedModule } from './shared/shared.module';
-import { TestModule } from './http/api/v1/test/test.module';
+import { pathFromSrc } from './utils/general';
 
 @Module({
   imports: [
@@ -31,15 +31,18 @@ import { TestModule } from './http/api/v1/test/test.module';
       isGlobal: true,
       imports: [ConfigModule],
       inject: [ConfigService],
-      useFactory: async (configSrv: ConfigService) => ({
-        store: redisStore.create({
-          host: configSrv.get('REDIS_HOST'),
-          port: +configSrv.get('REDIS_PORT'),
-        }),
-        host: configSrv.get('REDIS_HOST'),
-        port: +configSrv.get('REDIS_PORT'),
-        ttl: configSrv.get('CACHE_TIMEOUT') || 360,
-      }),
+      useFactory: async (configSrv: ConfigService) => {
+        const redisConfiguration = redisConfig();
+
+        return {
+          store: (await redisStore({
+            url: redisConfiguration.url,
+            ttl: configSrv.get('CACHE_TIMEOUT') || 360,
+          })) as unknown as CacheStore,
+          url: redisConfiguration.url,
+          ttl: configSrv.get('CACHE_TIMEOUT') || 360,
+        };
+      },
     }),
     ConfigModule.forRoot({
       envFilePath: ['.env', `${process.env.NODE_ENV}.env`, 'local.env'],
@@ -95,18 +98,20 @@ import { TestModule } from './http/api/v1/test/test.module';
     ThrottlerModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
-      useFactory: (config: ConfigService) => ({
-        ttl: config.get('app.THROTTLE_TTL'),
-        limit: config.get('app.THROTTLE_LIMIT'),
-      }),
+      useFactory: (config: ConfigService) => {
+        return [
+          {
+            ttl: config.get('app.THROTTLE_TTL') as number,
+            limit: config.get('app.THROTTLE_LIMIT') as number,
+          },
+        ] as ThrottlerModuleOptions;
+      },
     }),
-    TranslatorModule.forRoot({
-      global: true,
+    TranslateModule.forRoot({
       defaultLang: 'en',
-      translationSource: '/src/i18n',
+      prefix: pathFromSrc('i18n'),
     }),
     SharedModule,
-    TestModule,
   ],
   controllers: [],
   providers: [
@@ -121,10 +126,6 @@ import { TestModule } from './http/api/v1/test/test.module';
     {
       provide: APP_PIPE,
       useValue: validatorPipe,
-    },
-    {
-      provide: APP_GUARD,
-      useClass: JwtAuthGuard,
     },
   ],
 })

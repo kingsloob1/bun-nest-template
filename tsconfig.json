@@ -42,5 +42,11 @@
       "models/*": ["./src/config/database/models/*"],
       "utils/*": ["./src/utils/*"],
     }
-  }
+  },
+  "include": [
+    "./src/**/*",
+    "./**/*.{ts,js}",
+    "./.eslintrc",
+    "./.prettierrc"
+  ]
 }
