@@ -1,7 +1,8 @@
 import { isString } from 'lodash-es';
 import processEnvObj from '.';
+import { registerAs } from '@nestjs/config';
 
-export default () => {
+const getConfig = () => {
   const scheme = processEnvObj.REDIS_SCHEME || 'redis';
   const host = processEnvObj.REDIS_HOST || '127.0.0.1';
   const port = processEnvObj.REDIS_PORT || '6379';
@@ -16,5 +17,8 @@ export default () => {
     host: processEnvObj.REDIS_HOST,
     port: parseInt(String(processEnvObj.REDIS_PORT || '6379'), 10) || 6379,
     url,
+    cacheTimeout: processEnvObj.CACHE_TIMEOUT || 360,
   };
 };
+
+export default registerAs('redis', getConfig);

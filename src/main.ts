@@ -58,9 +58,10 @@ async function bootstrap() {
     useContainer(app.select(AppModule), { fallbackOnErrors: true });
 
     //TODO: Incrase paylaod size here default payload sizse is 5mb
+
     const config = new DocumentBuilder()
-      .setTitle('Project Title')
-      .setDescription('Project Description')
+      .setTitle('Support Sync pro')
+      .setDescription('Support Sync pro')
       .setVersion('1.0')
       .addBearerAuth(
         {
@@ -74,7 +75,6 @@ async function bootstrap() {
       .setExternalDoc('Postman Collection', '/docs-json')
       .setBasePath('/api')
       .build();
-
     const document = SwaggerModule.createDocument(app, config);
     SwaggerModule.setup('api/docs', app, document, {
       swaggerOptions: {

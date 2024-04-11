@@ -21,33 +21,32 @@ import { ThrottlerBehindProxyGuard } from './config/throttle';
 import validatorPipe from './config/validator';
 import appConfig from './config/envs/app.config';
 import databaseConfig from './config/envs/database.config';
-import redisConfig from './config/envs/redis.config';
+import redisConfiguration from './config/envs/redis.config';
 import { SharedModule } from './shared/shared.module';
+import { TestModule } from './http/api/v1/test/test.module';
 import { pathFromSrc } from './utils/general';
+import { RedisService } from './shared/service/redis.service';
 
 @Module({
   imports: [
     CacheModule.registerAsync<RedisClientOptions>({
       isGlobal: true,
       imports: [ConfigModule],
-      inject: [ConfigService],
-      useFactory: async (configSrv: ConfigService) => {
-        const redisConfiguration = redisConfig();
-
+      inject: [redisConfiguration.KEY, RedisService],
+      useFactory: async (redisConfig: ConfigType<typeof redisConfiguration>, redisService: RedisService) => {
+        const client = await redisService.getIoRedisClient();
+    
         return {
-          store: (await redisStore({
-            url: redisConfiguration.url,
-            ttl: configSrv.get('CACHE_TIMEOUT') || 360,
-          })) as unknown as CacheStore,
-          url: redisConfiguration.url,
-          ttl: configSrv.get('CACHE_TIMEOUT') || 360,
+          store: client as unknown as CacheStore,
+          url: redisConfig.url,
+          ttl: Number(redisConfig.cacheTimeout),
         };
       },
     }),
     ConfigModule.forRoot({
       envFilePath: ['.env', `${process.env.NODE_ENV}.env`, 'local.env'],
       isGlobal: true,
-      load: [appConfig, databaseConfig, redisConfig],
+      load: [appConfig, databaseConfig, redisConfiguration],
       cache: true,
     }),
     LoggerModule.forRootAsync({
@@ -112,6 +111,7 @@ import { pathFromSrc } from './utils/general';
       prefix: pathFromSrc('i18n'),
     }),
     SharedModule,
+    TestModule,
   ],
   controllers: [],
   providers: [
